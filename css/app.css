@@ -1,0 +1,205 @@
+/* Put your CSS here */
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map-canvas { height: 100% }
+
+label { clear: both }
+
+.earth-background {
+	background-image: url(../assets/images/earth.jpg);
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.three-background {
+	background-image: url(../assets/images/three.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sophiekneel-background {
+	background-image: url(../assets/images/SophieKneel.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.theater-background {
+	background-image: url(../assets/images/Theater.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.behindtoy-background {
+	background-image: url(../assets/images/behindtoy.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.feeding-background {
+	background-image: url(../assets/images/feeding.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.modal-left {
+	float: left;
+}
+
+.modal-right {
+	margin-left: 250px;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.show {
+    display: block;
+}
+
+.alert-modal {
+	padding: 6px;
+	margin-bottom: 0px;
+}
+
+/* Below are styles for Ember app*/
+.ember-application {
+	margin: 20px;
+}
+
+
+.wenmodal {
+	position: absolute;
+	margin: 10px auto;
+	width: 800px;
+	background-color: #fff;
+	padding: 1em;
+	top: 50px;
+	left: 50px;
+    z-index: 2001;
+}
+
+#frame {
+    width: 1280px;
+    height: 900px;
+    border: none;
+    -moz-transform: scale(0.1);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.1);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.1);
+    -webkit-transform-origin: 0 0;
+}
+
+  /*.sidebar {
+	z-index: 0;
+  }*/
+
+
+/*input {
+  width: 100%;
+}*/
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+      z-index: 2000;
+}
+
+.flush--top {
+  margin-top: 0;  
+}
+
+/* Start of full calendar styles*/
+#wrap {
+	width: 1100px;
+	margin: 0 0 0 0;
+	}
+		
+#external-events {
+	float: left;
+	width: 150px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	background: #eee;
+	text-align: left;
+	}
+		
+#external-events h4 {
+	font-size: 16px;
+	margin-top: 0;
+	padding-top: 1em;
+	}
+		
+.external-event { /* try to mimick the look of a real event */
+	margin: 10px 0;
+	padding: 2px 4px;
+	background: #3366CC;
+	color: #fff;
+	font-size: .85em;
+	cursor: pointer;
+	}
+		
+#external-events p {
+	margin: 1.5em 0;
+	font-size: 11px;
+	color: #666;
+	}
+		
+#external-events p input {
+	margin: 0;
+	vertical-align: middle;
+	}
+
+#calendar {
+	float: right;
+	width: 900px;
+	}
+
+.row-xs-height {
+	margin-bottom: 15px;
+	/*display: table-row;*/
+}
+
+.col-xs-height {
+	/*display:table-cell;
+	float:none;*/
+}
+
+.search-input-text {
+	width: 100px;
+}
+/* End of full calendar styles*/
+
+.dialog-mini {
+	border: 1px solid #000000;
+	width: 45px;
+	top: -37px;
+	height: 28px;
+	/* left: 593px; */
+	position: relative;
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	background-color: #0B0B3B;
+	float: right;  
+}
+
+.dialog-mini:before {
+	border-color: #0B0B3B transparent transparent #0B0B3B;
+	border-image: none;
+	border-style: solid;
+	border-width: 5px;
+	content: " ";
+	height: 0px;
+	left: 10px;
+	position: absolute;
+	top: 26px;
+	width: 0px;    
+}
